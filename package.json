@@ -1,0 +1,24 @@
+{
+  "name": "unit-5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc index.ts",
+    "build:watch":"tsc index.ts --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AFFAN-AHMAD/unit-5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AFFAN-AHMAD/unit-5/issues"
+  },
+  "homepage": "https://github.com/AFFAN-AHMAD/unit-5#readme",
+  "dependencies": {
+    "typescript": "^4.6.4"
+  }
+}
