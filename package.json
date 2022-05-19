@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc index.ts",
-    "build:watch":"tsc index.ts --watch"
+    "build": "tsc merge.ts",
+    "build:watch":"tsc merge.ts --watch"
   },
   "repository": {
     "type": "git",
