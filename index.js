@@ -3,13 +3,25 @@ var userArr = [
     { id: 1, age: 12, name: "Affan", salary: 40000 },
     { id: 2, age: 12, name: "Prathmesh", salary: 41000 },
     { id: 3, age: 12, name: "Naved", salary: 42000 },
-    { id: 4, age: 12, name: "Mohit", salary: 43000 },
+    { id: 4, age: 12, name: "Gautam", salary: 43000 },
     { id: 5, age: 12, name: "Huzaifa", salary: 44000 },
     { id: 6, age: 12, name: "Bushra", salary: 45000 },
-    { id: 7, age: 12, name: "Arshad", salary: 4600 },
+    { id: 7, age: 12, name: "Arshad", salary: 46000 },
     { id: 8, age: 12, name: "Saiyam", salary: 47000 },
     { id: 9, age: 12, name: "Haroon", salary: 40000 },
     { id: 10, age: 12, name: "Shakir", salary: 40000 },
+];
+var teacherArr = [
+    { id: 1, name: "Affan" },
+    { id: 2, name: "Prathmesh" },
+    { id: 3, name: "Naved" },
+    { id: 4, name: "Gautam" },
+    { id: 5, name: "Huzaifa" },
+    { id: 6, name: "Bushra" },
+    { id: 7, name: "Arshad" },
+    { id: 8, name: "Saiyam" },
+    { id: 9, name: "Haroon" },
+    { id: 10, name: "Shakir" },
 ];
 function sort(arr, by) {
     function merge(arr, left, right, mid) {
@@ -58,4 +70,5 @@ function sort(arr, by) {
     var z = mergeSort(arr, 0, arr.length - 1);
     console.log(arr);
 }
-sort(userArr, "salary");
+sort(userArr, "name");
+sort(teacherArr, "name");
